@@ -1,0 +1,40 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Cuando se utilizó diff para comparar dos archivos, se mostraba
+    un signo de + cuando una linea se había agregado a la nueva versión y 
+    un signo - cuando esa linea había sido removida.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+El fácil acceso a las versiones de un archivo hará mucho mas eficiente el
+trabajo de un programador porque será mucho mas sencillo identificar errores
+cometidos accidentalmente, o también regresear a un punto clave después de
+haber experimentado un poco con el comportaiento del proyecto.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+Los pros de elegir manualmente cuando hacer un commit es que el programador decide el momento o mejor dicho la importancia del cambio que ha realizado en su codigo, entonces esto le permite una mayor exactitud al momento de regresar a esa version de su pograma. Un contra es que si el programador no es muy responsable con los commit, entonces puede verse en riesgo ya que su trabajo puede perderse o puede ser incapaz de volver a un estado funcional en dado caso de que el programa se arruine.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Porque al momento de realizar un cambio, ese commit pudo haber realizado algún cambio en otro archivo.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log nos sirve para ver los regitros de los commit, con esto podremos ver los id de los commit
+que se hayan realizado. Una vez hecho esto, podremo utilizar git diff para comparar los commit
+y encontrar las diferencias entre ellos.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+Utilizando el git checkout para verificar errores.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Para administrar mis versiones.
